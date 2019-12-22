@@ -21,17 +21,20 @@
 
             #id-1{
                 font-family: 'Poppins', sans-serif;
+                font-weight: 400;
 
             }
 
             #id-2{
                 font-weight: bold;
                 font-family: 'Poppins', sans-serif;
+                font-weight: 600;
 
             }
 
             #id-3{
                 font-family: 'Poppins', sans-serif;
+                font-weight: 200;
 
             }
 
@@ -39,9 +42,28 @@
                 text-align: center;
             }
 
-            .supervisor{
+            .main1{
+               align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0 6%;
+            }
+
+            .supervisor,
+            .team-builder,
+            .karma,
+            .calculator {
+                box-shadow: 2px 10px 10px 0 rgba(0, 0, 0, 0.2);
+    border-top: 3px solid;
+    border-radius: 10px;
+    color: hsl(234, 12%, 34%);
+    text-align: left;
+    margin: 20px;
 
             }
+                .supervisor{
+
+                }
         </style>
 
     </head>
@@ -65,30 +87,30 @@
 
 
             <div class="main1">
-            <div class="supervisor">
-               <p class="title">Supervisor</p>
-                <p class="content">Monitors activity to identify project roadblocks</p>
-            </div>
-            <div class="team-builder">
-                <p class="title">Team Builder</p>
-                <p class="content"> Scans our talent network to create the optimal team for your project</p>
-            </div>
-            <div class="karma">
-                <p class="title"> Karma</p>
-                <p class="content"> Regularly evaluates our talent to ensure quality</p>
-            </div>
-            <div class="calculator">
-                <p class="title">  Calculator</p>
-                <p class="content">Uses data from past projects to provide better delivery estimates</p>
-            </div>
+                <div class="supervisor">
+                    <p class="title">Supervisor</p>
+                    <p class="content">Monitors activity to identify project roadblocks</p>
+                </div>
+                <div class="team-builder">
+                    <p class="title">Team Builder</p>
+                    <p class="content"> Scans our talent network to create the optimal team for your project</p>
+                </div>
+                <div class="karma">
+                    <p class="title"> Karma</p>
+                    <p class="content"> Regularly evaluates our talent to ensure quality</p>
+                </div>
+                <div class="calculator">
+                    <p class="title">  Calculator</p>
+                    <p class="content">Uses data from past projects to provide better delivery estimates</p>
+                </div>
             </div>
         </div>
 
-            <footer>
-                <p class="attribution">
-                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-                    Coded by <a href="#">Your Name Here</a>.
-                </p>
-            </footer>
+        <footer>
+            <p class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                Coded by <a href="#">Your Name Here</a>.
+            </p>
+        </footer>
     </body>
 </html>
